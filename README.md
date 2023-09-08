@@ -17,4 +17,12 @@ This implementation is not meant to be used in production.
 
 
 ## References
+The following paper provides details of this implementation:
+<a href="https://eprint.iacr.org/2023/1282" target="_blank">Proof-Carrying Data from Multi-folding Schemes</a>
+Zibo Zhou, Zongyang Zhang, Jin Dong, and Zhiyu Zhang
+IACR ePrint 2023/1282
 
+For efficiency, our implementation is instantiated over a cycle of elliptic curves. The structure refers to the following paper:
+Revisiting the Nova Proof System on a Cycle of Curves
+Wilson Nguyen, Dan Boneh, and Srinath Setty
+IACR ePrint 2023/969
